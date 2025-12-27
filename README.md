@@ -85,7 +85,8 @@ You need two terminals.
 
 This launches Gazebo, spawns the robot, and starts the safety controller.
 
-```source install/setup.bash  
+```
+source install/setup.bash  
 ros2 launch assignment2_rt assignment2.launch.py
 ```
 
@@ -94,7 +95,8 @@ ros2 launch assignment2_rt assignment2.launch.py
 
 This starts the keyboard-based controller.
 
-```source install/setup.bash  
+```
+source install/setup.bash  
 ros2 run assignment2_rt ui_node
 ```
 
