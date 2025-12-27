@@ -1,8 +1,8 @@
 {
   "package_name": "assignment2_custom_msg",
   "non_idl_tuples": [
-    "/home/hani/Desktop/ros2_ws/assignment2_custom_msg:msg/ObstacleInfo.msg",
-    "/home/hani/Desktop/ros2_ws/assignment2_custom_msg:srv/SetThreshold.srv",
-    "/home/hani/Desktop/ros2_ws/assignment2_custom_msg:srv/GetLastVelocity.srv"
+    "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg:msg/ObstacleInfo.msg",
+    "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg:srv/SetThreshold.srv",
+    "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg:srv/GetLastVelocity.srv"
   ]
 }

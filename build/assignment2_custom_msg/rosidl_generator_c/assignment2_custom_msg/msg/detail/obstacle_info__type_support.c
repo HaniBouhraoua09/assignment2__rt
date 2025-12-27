@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "assignment2_custom_msg/msg/detail/obstacle_info__type_support.h"
 #include "assignment2_custom_msg/msg/detail/obstacle_info__struct.h"
 #include "assignment2_custom_msg/msg/detail/obstacle_info__functions.h"
+#include "assignment2_custom_msg/msg/detail/obstacle_info__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

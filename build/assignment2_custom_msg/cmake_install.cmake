@@ -1,4 +1,4 @@
-# Install script for directory: /home/hani/Desktop/ros2_ws/assignment2_custom_msg
+# Install script for directory: /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -383,15 +383,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msg/msg" TYPE FILE FILES "/home/hani/Desktop/ros2_ws/assignment2_custom_msg/msg/ObstacleInfo.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msg/msg" TYPE FILE FILES "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/msg/ObstacleInfo.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msg/srv" TYPE FILE FILES "/home/hani/Desktop/ros2_ws/assignment2_custom_msg/srv/SetThreshold.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msg/srv" TYPE FILE FILES "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/srv/SetThreshold.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msg/srv" TYPE FILE FILES "/home/hani/Desktop/ros2_ws/assignment2_custom_msg/srv/GetLastVelocity.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msg/srv" TYPE FILE FILES "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/srv/GetLastVelocity.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -682,7 +682,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msg" TYPE FILE FILES "/home/hani/Desktop/ros2_ws/assignment2_custom_msg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msg" TYPE FILE FILES "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

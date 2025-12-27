@@ -8,9 +8,9 @@
     "/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg/rosidl_adapter/assignment2_custom_msg:srv/GetLastVelocity.idl"
   ],
   "ros_interface_files": [
-    "/home/hani/Desktop/ros2_ws/assignment2_custom_msg/msg/ObstacleInfo.msg",
-    "/home/hani/Desktop/ros2_ws/assignment2_custom_msg/srv/SetThreshold.srv",
-    "/home/hani/Desktop/ros2_ws/assignment2_custom_msg/srv/GetLastVelocity.srv"
+    "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/msg/ObstacleInfo.msg",
+    "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/srv/SetThreshold.srv",
+    "/home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/srv/GetLastVelocity.srv"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",

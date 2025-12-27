@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "assignment2_custom_msg/srv/detail/get_last_velocity__functions.h"
 #include "assignment2_custom_msg/srv/detail/get_last_velocity__type_support.h"
 #include "assignment2_custom_msg/srv/detail/get_last_velocity__struct.h"
+#include "assignment2_custom_msg/srv/detail/get_last_velocity__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

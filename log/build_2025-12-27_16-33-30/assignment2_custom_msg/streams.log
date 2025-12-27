@@ -1,0 +1,311 @@
+[0.023s] Invoking command in '/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hani/Desktop/ros2_ws/install/assignment2_rt:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg -DCMAKE_INSTALL_PREFIX=/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg
+[0.131s] -- The C compiler identification is GNU 13.3.0
+[0.258s] -- The CXX compiler identification is GNU 13.3.0
+[0.295s] -- Detecting C compiler ABI info
+[0.480s] -- Detecting C compiler ABI info - done
+[0.507s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.507s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.527s] -- Detecting CXX compiler ABI info
+[0.780s] -- Detecting CXX compiler ABI info - done
+[0.813s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.814s] -- Detecting CXX compile features
+[0.815s] -- Detecting CXX compile features - done
+[0.824s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.115s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.355s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.610s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.916s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.144s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.441s] -- Found PythonExtra: /usr/bin/python3  
+[6.308s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.416s] -- Configuring done (6.4s)
+[6.525s] -- Generating done (0.1s)
+[6.550s] -- Build files have been written to: /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg
+[6.561s] Invoked command in '/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hani/Desktop/ros2_ws/install/assignment2_rt:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg -DCMAKE_INSTALL_PREFIX=/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg
+[6.562s] Invoking command in '/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hani/Desktop/ros2_ws/install/assignment2_rt:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg -- -j8 -l8
+[6.659s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.674s] [  1%] Built target ament_cmake_python_copy_assignment2_custom_msg
+[7.057s] [  1%] Built target assignment2_custom_msg__rosidl_generator_type_description
+[7.075s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.093s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.125s] running egg_info
+[7.128s] creating assignment2_custom_msg.egg-info
+[7.174s] writing assignment2_custom_msg.egg-info/PKG-INFO
+[7.175s] writing dependency_links to assignment2_custom_msg.egg-info/dependency_links.txt
+[7.175s] writing top-level names to assignment2_custom_msg.egg-info/top_level.txt
+[7.175s] writing manifest file 'assignment2_custom_msg.egg-info/SOURCES.txt'
+[7.312s] reading manifest file 'assignment2_custom_msg.egg-info/SOURCES.txt'
+[7.313s] writing manifest file 'assignment2_custom_msg.egg-info/SOURCES.txt'
+[7.372s] [  5%] Built target ament_cmake_python_build_assignment2_custom_msg_egg
+[7.885s] [  5%] Built target assignment2_custom_msg__cpp
+[8.026s] [  9%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/msg/detail/obstacle_info__functions.c.o[0m
+[8.027s] [  9%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/msg/detail/obstacle_info__description.c.o[0m
+[8.027s] [ 11%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/msg/detail/obstacle_info__type_support.c.o[0m
+[8.028s] [ 12%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/srv/detail/set_threshold__description.c.o[0m
+[8.028s] [ 16%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/srv/detail/get_last_velocity__description.c.o[0m
+[8.028s] [ 18%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/srv/detail/get_last_velocity__functions.c.o[0m
+[8.029s] [ 14%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/srv/detail/set_threshold__functions.c.o[0m
+[8.030s] [ 20%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/srv/detail/set_threshold__type_support.c.o[0m
+[8.117s] [ 22%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.c.o[0m
+[8.219s] [ 24%] [32m[1mLinking C shared library libassignment2_custom_msg__rosidl_generator_c.so[0m
+[8.329s] [ 24%] Built target assignment2_custom_msg__rosidl_generator_c
+[8.380s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.387s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.388s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.389s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.390s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.394s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.192s] [ 38%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msg/msg/obstacle_info__type_support.cpp.o[0m
+[9.192s] [ 38%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msg/srv/get_last_velocity__type_support.cpp.o[0m
+[9.192s] [ 40%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msg/srv/set_threshold__type_support.cpp.o[0m
+[9.347s] [ 42%] [32m[1mLinking CXX shared library libassignment2_custom_msg__rosidl_typesupport_c.so[0m
+[9.409s] [ 46%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msg/srv/get_last_velocity__type_support.cpp.o[0m
+[9.409s] [ 46%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msg/srv/set_threshold__type_support.cpp.o[0m
+[9.409s] [ 48%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msg/msg/obstacle_info__type_support.cpp.o[0m
+[9.462s] [ 48%] Built target assignment2_custom_msg__rosidl_typesupport_c
+[9.612s] [ 50%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/msg/detail/obstacle_info__type_support.cpp.o[0m
+[9.629s] [ 51%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/set_threshold__type_support.cpp.o[0m
+[9.679s] [ 53%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msg/msg/detail/obstacle_info__type_support.c.o[0m
+[9.779s] [ 55%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msg/srv/detail/set_threshold__type_support.c.o[0m
+[9.789s] [ 57%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msg/msg/detail/dds_fastrtps/obstacle_info__type_support.cpp.o[0m
+[9.929s] [ 59%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.c.o[0m
+[10.079s] [ 61%] [32m[1mLinking C shared library libassignment2_custom_msg__rosidl_typesupport_introspection_c.so[0m
+[10.120s] [ 62%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msg/msg/detail/obstacle_info__type_support_c.cpp.o[0m
+[10.192s] [ 62%] Built target assignment2_custom_msg__rosidl_typesupport_introspection_c
+[10.260s] [ 64%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msg/srv/detail/dds_fastrtps/set_threshold__type_support.cpp.o[0m
+[10.476s] [ 66%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msg/srv/detail/dds_fastrtps/get_last_velocity__type_support.cpp.o[0m
+[10.668s] [ 68%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.cpp.o[0m
+[10.673s] [ 70%] [32m[1mLinking CXX shared library libassignment2_custom_msg__rosidl_typesupport_cpp.so[0m
+[10.694s] [ 72%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msg/srv/detail/set_threshold__type_support_c.cpp.o[0m
+[10.889s] [ 72%] Built target assignment2_custom_msg__rosidl_typesupport_cpp
+[10.912s] [ 74%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msg/srv/detail/get_last_velocity__type_support_c.cpp.o[0m
+[11.866s] [ 75%] [32m[1mLinking CXX shared library libassignment2_custom_msg__rosidl_typesupport_introspection_cpp.so[0m
+[12.013s] [ 75%] Built target assignment2_custom_msg__rosidl_typesupport_introspection_cpp
+[12.117s] [ 77%] [32m[1mLinking CXX shared library libassignment2_custom_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.261s] [ 77%] Built target assignment2_custom_msg__rosidl_typesupport_fastrtps_cpp
+[12.290s] [ 79%] [32m[1mLinking CXX shared library libassignment2_custom_msg__rosidl_typesupport_fastrtps_c.so[0m
+[12.493s] [ 79%] Built target assignment2_custom_msg__rosidl_typesupport_fastrtps_c
+[12.528s] [ 79%] Built target assignment2_custom_msg
+[12.568s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.662s] [ 81%] Built target assignment2_custom_msg__py
+[13.701s] [ 87%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msg/msg/_obstacle_info_s.c.o[0m
+[13.701s] [ 87%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msg/srv/_get_last_velocity_s.c.o[0m
+[13.701s] [ 87%] [32mBuilding C object CMakeFiles/assignment2_custom_msg__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msg/srv/_set_threshold_s.c.o[0m
+[13.979s] [ 88%] [32m[1mLinking C shared library libassignment2_custom_msg__rosidl_generator_py.so[0m
+[14.063s] [ 88%] Built target assignment2_custom_msg__rosidl_generator_py
+[14.152s] [ 90%] [32mBuilding C object CMakeFiles/assignment2_custom_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/assignment2_custom_msg/_assignment2_custom_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[14.153s] [ 94%] [32mBuilding C object CMakeFiles/assignment2_custom_msg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/assignment2_custom_msg/_assignment2_custom_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.153s] [ 94%] [32mBuilding C object CMakeFiles/assignment2_custom_msg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/assignment2_custom_msg/_assignment2_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.497s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_c.so[0m
+[14.503s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_introspection_c.so[0m
+[14.504s] [100%] [32m[1mLinking C shared module rosidl_generator_py/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_fastrtps_c.so[0m
+[14.553s] [100%] Built target assignment2_custom_msg_s__rosidl_typesupport_c
+[14.560s] [100%] Built target assignment2_custom_msg_s__rosidl_typesupport_introspection_c
+[14.560s] [100%] Built target assignment2_custom_msg_s__rosidl_typesupport_fastrtps_c
+[14.583s] Invoked command in '/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hani/Desktop/ros2_ws/install/assignment2_rt:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg -- -j8 -l8
+[14.585s] Invoking command in '/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hani/Desktop/ros2_ws/install/assignment2_rt:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg
+[14.621s] -- Install configuration: ""
+[14.622s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/ament_index/resource_index/rosidl_interfaces/assignment2_custom_msg
+[14.623s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/msg/ObstacleInfo.json
+[14.624s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/srv/SetThreshold.json
+[14.625s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/srv/GetLastVelocity.json
+[14.626s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg
+[14.627s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg
+[14.628s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/obstacle_info.h
+[14.628s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/rosidl_generator_c__visibility_control.h
+[14.629s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail
+[14.630s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__functions.h
+[14.630s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__type_support.h
+[14.631s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__struct.h
+[14.631s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__functions.c
+[14.632s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__description.c
+[14.633s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__type_support.c
+[14.633s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv
+[14.634s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/get_last_velocity.h
+[14.634s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/set_threshold.h
+[14.635s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail
+[14.636s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__description.c
+[14.636s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__functions.h
+[14.637s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__type_support.h
+[14.637s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__functions.h
+[14.638s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__functions.c
+[14.639s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__type_support.c
+[14.639s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__description.c
+[14.640s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__functions.c
+[14.641s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__struct.h
+[14.641s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__struct.h
+[14.642s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.c
+[14.642s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.h
+[14.643s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/environment/library_path.sh
+[14.644s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/environment/library_path.dsv
+[14.644s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_generator_c.so
+[14.645s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_generator_c.so" to ""
+[14.646s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg
+[14.646s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg
+[14.647s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.647s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail
+[14.648s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__rosidl_typesupport_fastrtps_c.h
+[14.648s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv
+[14.649s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail
+[14.650s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__rosidl_typesupport_fastrtps_c.h
+[14.650s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__rosidl_typesupport_fastrtps_c.h
+[14.651s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_fastrtps_c.so
+[14.652s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[14.652s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg
+[14.653s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg
+[14.653s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail
+[14.654s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__rosidl_typesupport_introspection_c.h
+[14.654s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__type_support.c
+[14.655s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.656s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv
+[14.656s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail
+[14.657s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__rosidl_typesupport_introspection_c.h
+[14.658s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__rosidl_typesupport_introspection_c.h
+[14.658s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__type_support.c
+[14.659s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.c
+[14.659s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_introspection_c.so
+[14.660s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_introspection_c.so" to ""
+[14.661s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_c.so
+[14.661s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_c.so" to ""
+[14.662s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg
+[14.663s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg
+[14.664s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.665s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/obstacle_info.hpp
+[14.665s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail
+[14.666s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__struct.hpp
+[14.666s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__builder.hpp
+[14.667s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__traits.hpp
+[14.667s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__type_support.hpp
+[14.668s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv
+[14.669s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/get_last_velocity.hpp
+[14.669s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail
+[14.670s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__traits.hpp
+[14.671s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__builder.hpp
+[14.672s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__builder.hpp
+[14.673s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__type_support.hpp
+[14.674s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__struct.hpp
+[14.675s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__traits.hpp
+[14.676s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.hpp
+[14.676s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__struct.hpp
+[14.677s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/set_threshold.hpp
+[14.677s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg
+[14.678s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg
+[14.678s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.679s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail
+[14.679s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/dds_fastrtps
+[14.680s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.680s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv
+[14.681s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail
+[14.681s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/dds_fastrtps
+[14.682s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[14.682s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__rosidl_typesupport_fastrtps_cpp.hpp
+[14.683s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_fastrtps_cpp.so
+[14.683s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.684s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg
+[14.684s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg
+[14.685s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail
+[14.686s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__rosidl_typesupport_introspection_cpp.hpp
+[14.687s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/msg/detail/obstacle_info__type_support.cpp
+[14.687s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv
+[14.688s] -- Up-to-date: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail
+[14.689s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__type_support.cpp
+[14.690s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.cpp
+[14.690s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/get_last_velocity__rosidl_typesupport_introspection_cpp.hpp
+[14.691s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/include/assignment2_custom_msg/assignment2_custom_msg/srv/detail/set_threshold__rosidl_typesupport_introspection_cpp.hpp
+[14.691s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_introspection_cpp.so
+[14.692s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[14.693s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_cpp.so
+[14.694s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_typesupport_cpp.so" to ""
+[14.694s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/environment/pythonpath.sh
+[14.695s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/environment/pythonpath.dsv
+[14.695s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg-0.0.0-py3.12.egg-info
+[14.696s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg-0.0.0-py3.12.egg-info/PKG-INFO
+[14.696s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg-0.0.0-py3.12.egg-info/dependency_links.txt
+[14.697s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg-0.0.0-py3.12.egg-info/top_level.txt
+[14.697s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg-0.0.0-py3.12.egg-info/SOURCES.txt
+[14.698s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg
+[14.698s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/_assignment2_custom_msg_s.ep.rosidl_typesupport_introspection_c.c
+[14.699s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_fastrtps_c.so
+[14.699s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/_assignment2_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.700s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/msg
+[14.700s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/msg/_obstacle_info.py
+[14.701s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/msg/_obstacle_info_s.c
+[14.701s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/msg/__init__.py
+[14.702s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/__init__.py
+[14.702s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv
+[14.703s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv/_set_threshold_s.c
+[14.703s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv/__init__.py
+[14.704s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv/_set_threshold.py
+[14.704s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv/_get_last_velocity.py
+[14.705s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv/_get_last_velocity_s.c
+[14.705s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_c.so
+[14.706s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_introspection_c.so
+[14.706s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/_assignment2_custom_msg_s.ep.rosidl_typesupport_c.c
+[14.850s] Listing '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg'...
+[14.851s] Compiling '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/__init__.py'...
+[14.851s] Listing '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/msg'...
+[14.851s] Compiling '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/msg/__init__.py'...
+[14.851s] Compiling '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/msg/_obstacle_info.py'...
+[14.851s] Listing '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv'...
+[14.852s] Compiling '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv/__init__.py'...
+[14.852s] Compiling '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv/_get_last_velocity.py'...
+[14.852s] Compiling '/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/srv/_set_threshold.py'...
+[14.861s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_fastrtps_c.so
+[14.862s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_fastrtps_c.so" to ""
+[14.862s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_introspection_c.so
+[14.863s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_introspection_c.so" to ""
+[14.863s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_c.so
+[14.864s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/python3.12/site-packages/assignment2_custom_msg/assignment2_custom_msg_s__rosidl_typesupport_c.so" to ""
+[14.864s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_generator_py.so
+[14.864s] -- Set non-toolchain portion of runtime path of "/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/lib/libassignment2_custom_msg__rosidl_generator_py.so" to ""
+[14.865s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/msg/ObstacleInfo.idl
+[14.865s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/srv/SetThreshold.idl
+[14.865s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/srv/GetLastVelocity.idl
+[14.866s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/msg/ObstacleInfo.msg
+[14.866s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/srv/SetThreshold.srv
+[14.866s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/srv/GetLastVelocity.srv
+[14.866s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/ament_index/resource_index/package_run_dependencies/assignment2_custom_msg
+[14.870s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/ament_index/resource_index/parent_prefix_path/assignment2_custom_msg
+[14.871s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/environment/ament_prefix_path.sh
+[14.871s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/environment/ament_prefix_path.dsv
+[14.872s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/environment/path.sh
+[14.872s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/environment/path.dsv
+[14.873s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/local_setup.bash
+[14.873s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/local_setup.sh
+[14.873s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/local_setup.zsh
+[14.873s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/local_setup.dsv
+[14.874s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/package.dsv
+[14.875s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/ament_index/resource_index/packages/assignment2_custom_msg
+[14.875s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_generator_cExport.cmake
+[14.875s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_generator_cExport-noconfig.cmake
+[14.876s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[14.876s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.876s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msg__rosidl_typesupport_introspection_cExport.cmake
+[14.876s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.877s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msg__rosidl_typesupport_cExport.cmake
+[14.877s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msg__rosidl_typesupport_cExport-noconfig.cmake
+[14.877s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_generator_cppExport.cmake
+[14.877s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.877s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.878s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msg__rosidl_typesupport_introspection_cppExport.cmake
+[14.878s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.878s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msg__rosidl_typesupport_cppExport.cmake
+[14.878s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[14.879s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_generator_pyExport.cmake
+[14.879s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/export_assignment2_custom_msg__rosidl_generator_pyExport-noconfig.cmake
+[14.879s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/rosidl_cmake-extras.cmake
+[14.879s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.879s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.880s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[14.880s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/ament_cmake_export_targets-extras.cmake
+[14.880s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.880s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.881s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msgConfig.cmake
+[14.881s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/cmake/assignment2_custom_msgConfig-version.cmake
+[14.881s] -- Installing: /home/hani/Desktop/ros2_ws/install/assignment2_custom_msg/share/assignment2_custom_msg/package.xml
+[14.885s] Invoked command in '/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hani/Desktop/ros2_ws/install/assignment2_rt:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg

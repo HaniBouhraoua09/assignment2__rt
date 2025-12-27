@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hani/Desktop/ros2_ws/assignment2_custom_msg
+CMAKE_SOURCE_DIR = /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hani/Desktop/ros2_ws/assignment2_custom_msg
+CMAKE_SOURCE_DIR = /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg
@@ -66,9 +66,9 @@ include CMakeFiles/assignment2_custom_msg.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/assignment2_custom_msg.dir/progress.make
 
-CMakeFiles/assignment2_custom_msg: /home/hani/Desktop/ros2_ws/assignment2_custom_msg/msg/ObstacleInfo.msg
-CMakeFiles/assignment2_custom_msg: /home/hani/Desktop/ros2_ws/assignment2_custom_msg/srv/SetThreshold.srv
-CMakeFiles/assignment2_custom_msg: /home/hani/Desktop/ros2_ws/assignment2_custom_msg/srv/GetLastVelocity.srv
+CMakeFiles/assignment2_custom_msg: /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/msg/ObstacleInfo.msg
+CMakeFiles/assignment2_custom_msg: /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/srv/SetThreshold.srv
+CMakeFiles/assignment2_custom_msg: /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg/srv/GetLastVelocity.srv
 CMakeFiles/assignment2_custom_msg: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 assignment2_custom_msg: CMakeFiles/assignment2_custom_msg
@@ -84,6 +84,6 @@ CMakeFiles/assignment2_custom_msg.dir/clean:
 .PHONY : CMakeFiles/assignment2_custom_msg.dir/clean
 
 CMakeFiles/assignment2_custom_msg.dir/depend:
-	cd /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hani/Desktop/ros2_ws/assignment2_custom_msg /home/hani/Desktop/ros2_ws/assignment2_custom_msg /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg/CMakeFiles/assignment2_custom_msg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg /home/hani/Desktop/ros2_ws/src/assignment2_custom_msg /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg /home/hani/Desktop/ros2_ws/build/assignment2_custom_msg/CMakeFiles/assignment2_custom_msg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/assignment2_custom_msg.dir/depend
 

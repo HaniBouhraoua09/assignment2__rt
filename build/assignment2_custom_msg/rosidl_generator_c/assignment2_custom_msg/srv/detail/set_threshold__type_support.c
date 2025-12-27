@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "assignment2_custom_msg/srv/detail/set_threshold__type_support.h"
 #include "assignment2_custom_msg/srv/detail/set_threshold__struct.h"
+#include "assignment2_custom_msg/srv/detail/set_threshold__type_support.h"
 #include "assignment2_custom_msg/srv/detail/set_threshold__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 
