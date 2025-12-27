@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "assignment2_custom_msg__py",
+		"source" : "/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg/assignment2_custom_msg__py"
+	}
+}

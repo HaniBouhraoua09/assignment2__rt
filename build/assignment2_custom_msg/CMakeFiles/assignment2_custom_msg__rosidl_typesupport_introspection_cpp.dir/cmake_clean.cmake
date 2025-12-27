@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/msg/detail/obstacle_info__type_support.cpp.o"
+  "CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/msg/detail/obstacle_info__type_support.cpp.o.d"
+  "CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.cpp.o"
+  "CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.cpp.o.d"
+  "CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/set_threshold__type_support.cpp.o"
+  "CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/set_threshold__type_support.cpp.o.d"
+  "libassignment2_custom_msg__rosidl_typesupport_introspection_cpp.pdb"
+  "libassignment2_custom_msg__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/assignment2_custom_msg/msg/detail/obstacle_info__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/assignment2_custom_msg/msg/detail/obstacle_info__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/get_last_velocity__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/get_last_velocity__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/set_threshold__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/assignment2_custom_msg/srv/detail/set_threshold__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/assignment2_custom_msg__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

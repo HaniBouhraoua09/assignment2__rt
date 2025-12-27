@@ -1,0 +1,18 @@
+[0.014s] Invoking command in '/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hani/Desktop/ros2_ws/assignment2_custom_msg -DCMAKE_INSTALL_PREFIX=/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg
+[0.038s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.478s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.693s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.442s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.046s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.393s] -- Found PythonExtra: /usr/bin/python3  
+[6.833s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.898s] [31mCMake Error at CMakeLists.txt:18 (ament_export_depndencies):
+[6.898s]   Unknown CMake command "ament_export_depndencies".
+[6.898s] 
+[6.898s] [0m
+[6.899s] -- Configuring incomplete, errors occurred!
+[6.909s] Invoked command in '/home/hani/Desktop/ros2_ws/build/assignment2_custom_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hani/Desktop/ros2_ws/assignment2_custom_msg -DCMAKE_INSTALL_PREFIX=/home/hani/Desktop/ros2_ws/install/assignment2_custom_msg

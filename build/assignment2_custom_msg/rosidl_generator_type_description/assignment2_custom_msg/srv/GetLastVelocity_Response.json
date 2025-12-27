@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "assignment2_custom_msg/srv/GetLastVelocity_Response",
+      "fields": [
+        {
+          "name": "avg_linear",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "avg_angular",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "assignment2_custom_msg/srv/GetLastVelocity_Response",
+      "hash_string": "RIHS01_e9d179a6e2ff78b511ee3177d80850b6486eb6f5b58dd7432a9d50c92a2a5245"
+    }
+  ]
+}
