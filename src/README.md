@@ -1,9 +1,11 @@
+# ROS 2 Autonomous Safety Controller & Remote UI
+
 **Author:** Bouhraoua Hani  
 **Student:** 8314923   
 **Date:** December 23, 2025  
 
 
-# ROS 2 Autonomous Safety Controller & Remote UI
+
 
 ## 📝 Project Overview
 This project implements a **Safety Controller** and a **Remote User Interface** for a mobile robot in a simulated environment.
@@ -45,6 +47,8 @@ sudo apt update
 sudo apt install ros-jazzy-ros-gz
 # If you are using ROS Humble, use:
 # sudo apt install ros-humble-ros-gz
+```
+
 
 ## 🗂️ Workspace Setup
 
@@ -93,7 +97,7 @@ ros2 run assignment2_rt ui_node
 
 Make sure Terminal 2 is focused when controlling the robot.
 
-Key | Action  
+```Key | Action  
 --- | ---  
 W | Move Forward  
 X | Move Backward  
@@ -101,7 +105,7 @@ A | Turn Left
 D | Turn Right  
 S | Stop  
 CTRL + C | Quit  
-
+```
 
 ## 📡 Topics & Services
 
