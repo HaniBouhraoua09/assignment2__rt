@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
         'safety_controller = assignment2_rt.safety_node:main',
+        'ui_node = assignment2_rt.ui_node:main',
         ],
     },
 )
