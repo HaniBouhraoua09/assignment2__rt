@@ -54,13 +54,16 @@ sudo apt install ros-jazzy-ros-gz
 
 Navigate to your ROS 2 workspace source folder and clone the required repositories:
 
-```cd ~/ros2_ws/src```
+```cd ~/ros2_ws/src
+```
 
 # Clone this repository
-```git clone <YOUR_REPO_URL_HERE>```
+```git clone <YOUR_REPO_URL_HERE>
+```
 
 # Clone the simulator package (Professor's environment)
-```git clone https://github.com/CarmineD8/bme_gazebo_sensors.git```
+```git clone https://github.com/CarmineD8/bme_gazebo_sensors.git
+```
 
 
 ## 🛠️ Build Instructions
@@ -70,7 +73,8 @@ If you encounter build errors, remove the build/ and install/ folders and try ag
 
 ```cd ~/ros2_ws  
 colcon build  
-source install/setup.bash```
+source install/setup.bash
+```
 
 
 ## ▶️ How to Run
@@ -82,7 +86,8 @@ You need two terminals.
 This launches Gazebo, spawns the robot, and starts the safety controller.
 
 ```source install/setup.bash  
-ros2 launch assignment2_rt assignment2.launch.py```
+ros2 launch assignment2_rt assignment2.launch.py
+```
 
 
 ### Terminal 2: Launch User Interface
@@ -90,7 +95,8 @@ ros2 launch assignment2_rt assignment2.launch.py```
 This starts the keyboard-based controller.
 
 ```source install/setup.bash  
-ros2 run assignment2_rt ui_node```
+ros2 run assignment2_rt ui_node
+```
 
 
 ## 🎮 Controls
