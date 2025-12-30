@@ -54,9 +54,6 @@ sudo apt install ros-jazzy-ros-gz
 
 Navigate to your ROS 2 workspace source folder and clone the required repositories:
 
-```
-cd ~/
-```
 
 # Clone this repository
 ```
@@ -64,10 +61,10 @@ git clone https://github.com/HaniBouhraoua09/assignment2__rt
 ```
 
 # Clone the simulator package (Professor's environment)
+Navigate **cd ~/assignment2__rt/ros2_ws/src**  and clone this :
 ```
 git clone https://github.com/CarmineD8/bme_gazebo_sensors.git
 ```
-
 
 ## 🛠️ Build Instructions
 
