@@ -126,7 +126,7 @@ CTRL + C | Quit
 
 ## 📡 Topics & Services
 
-### Published Topics
+### 1. Published Topics
 
 /cmd_vel  
 Final velocity command sent to the robot (managed by the Safety Node).
@@ -135,7 +135,7 @@ Final velocity command sent to the robot (managed by the Safety Node).
 Custom message containing obstacle distance, direction, and threshold.
 
 
-### Subscribed Topics
+### 2. Subscribed Topics
 
 /scan  
 Laser scan data.
@@ -144,13 +144,16 @@ Laser scan data.
 Raw velocity commands from the UI.
 
 
-### Services
+### 3. Services
+
+You have to open a new terminal .
 
 * **`/set_threshold`**
     * **Type:** `assignment2_custom_msg/srv/SetThreshold`
     * **Description:** Change the safety distance dynamically (e.g., set to 0.5 meters).
     * **Command:**
         ```bash
+        source install/setup.bash 
         ros2 service call /set_threshold assignment2_custom_msg/srv/SetThreshold "{new_threshold: 0.5}"
         ```
 
@@ -159,6 +162,7 @@ Raw velocity commands from the UI.
     * **Description:** Retrieve the average velocity of the last 5 commands.
     * **Command:**
         ```bash
+        source install/setup.bash 
         ros2 service call /get_last_velocity assignment2_custom_msg/srv/GetLastVelocity "{}"
         ```
 
