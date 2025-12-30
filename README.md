@@ -2,7 +2,7 @@
 
 **Author:** Bouhraoua Hani  
 **Student:** 8314923   
-**Date:** December 27, 2025  
+**Date:** December 30, 2025  
 
 
 
@@ -74,7 +74,13 @@ git clone https://github.com/CarmineD8/bme_gazebo_sensors.git
 Build the workspace using colcon.  
 If you encounter build errors, remove the build/ and install/ folders and try again.
 
-```cd ~/ros2_ws  
+**⚠️ IMPORTANT NOTE:**
+> You must run `colcon build` from the **root** of your workspace (e.g., `~/ros2_ws`).
+> **NEVER** run `colcon build` inside the `src/` folder. If you build inside `src`, the custom service interfaces will not generate correctly, and you will see "Invalid Service Type" errors.
+> cd ~/ros2_ws        # Go to the workspace root
+
+
+```  
 colcon build  
 source install/setup.bash
 ```
@@ -140,10 +146,20 @@ Raw velocity commands from the UI.
 
 ### Services
 
-/set_threshold (assignment2_custom_msg/SetThreshold)  
-Change the safety distance dynamically.
+* **`/set_threshold`**
+    * **Type:** `assignment2_custom_msg/srv/SetThreshold`
+    * **Description:** Change the safety distance dynamically (e.g., set to 0.5 meters).
+    * **Command:**
+        ```bash
+        ros2 service call /set_threshold assignment2_custom_msg/srv/SetThreshold "{new_threshold: 0.5}"
+        ```
 
-/get_last_velocity (assignment2_custom_msg/GetLastVelocity)  
-Retrieve the average velocity of the last 5 commands.
+* **`/get_last_velocity`**
+    * **Type:** `assignment2_custom_msg/srv/GetLastVelocity`
+    * **Description:** Retrieve the average velocity of the last 5 commands.
+    * **Command:**
+        ```bash
+        ros2 service call /get_last_velocity assignment2_custom_msg/srv/GetLastVelocity "{}"
+        ```
 
 
