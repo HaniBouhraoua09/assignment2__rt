@@ -55,7 +55,7 @@ sudo apt install ros-jazzy-ros-gz
 Navigate to your ROS 2 workspace source folder and clone the required repositories:
 
 ```
-cd ~/ros2_ws/src
+cd ~/
 ```
 
 # Clone this repository
@@ -73,13 +73,7 @@ git clone https://github.com/CarmineD8/bme_gazebo_sensors.git
 
 Build the workspace using colcon.  
 If you encounter build errors, remove the build/ and install/ folders and try again.
-
-**⚠️ IMPORTANT NOTE:**
-> You must run `colcon build` from the **root** of your workspace (e.g., `~/ros2_ws`).
-> **NEVER** run `colcon build` inside the `src/` folder. If you build inside `src`, the custom service interfaces will not generate correctly, and you will see "Invalid Service Type" errors.
-> 
-> cd ~/ros2_ws        # Go to the workspace root.
-
+You have to pay attention for the directories where you run or build to avoid the miss-confliction.
 
 ```  
 colcon build  
